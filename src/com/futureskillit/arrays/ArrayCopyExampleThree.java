@@ -1,4 +1,4 @@
-package com.futuresillit.arrays;
+package com.futureskillit.arrays;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package com.futuresillit.arrays;
+package com.futureskillit.arrays;
 
 public class ArrayExampleTwo {
 
