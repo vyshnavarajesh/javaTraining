@@ -9,6 +9,7 @@ public class ArraysMethodsExample {
 		int[] numbers = {5,15,2,9,3,1};
 		Arrays.sort(numbers);
 		System.out.println("Ascending order");
+		
 		for(int num : numbers)
 		{
 			System.out.print(num+" ");

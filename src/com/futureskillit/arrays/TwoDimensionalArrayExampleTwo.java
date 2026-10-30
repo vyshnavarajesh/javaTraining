@@ -22,8 +22,8 @@ public class TwoDimensionalArrayExampleTwo {
 		}
 		
 		int arrTwo[][] = {
-				{10,20,30},
-				{40,50,60},
+				{10,20,30}, // 1D
+				{40,50,60}, // 1D
 				{70,80,90}		
 		};
 		
