@@ -13,7 +13,6 @@ public class ClassExampleOne {
 		// length < 4 m
 		// Speed 
 		
-		
 		// Animal - class
 		//Objects 
 		// Dog; Cow ; Tiger
