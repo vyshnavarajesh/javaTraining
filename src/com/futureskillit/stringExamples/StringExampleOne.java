@@ -1,12 +1,12 @@
 package com.futureskillit.stringExamples;
 
 public class StringExampleOne {
-
+	// java.lang.String; 
 	public static void main(String[] args) {
 		
-		String s1 = "Java"; // string literal
+		String s1 = "Java"; // string literal - SCP 
 		String s2 = "Java"; // string literal 
-		String s3 = new String("Java"); // String is a class
+		String s3 = new String("Java"); // String is a class ; refer to object & then SCP
 		String s4 = new String("Java"); // String is a class
 		
 		System.out.println(s1 == s2); // compares references
@@ -22,7 +22,7 @@ public class StringExampleOne {
 		
 		char c[] = {'t','r','a','i','n','i','n','g'};
 		
-		String charArray = new String(c);
+		String charArray = new String(c); // Her we can pass character Array , String Buffer, String Builder
 		
 		System.out.println(charArray);
 		
@@ -33,6 +33,7 @@ public class StringExampleOne {
 		
 		System.out.println(str.toLowerCase()); // lower case conversion
 		System.out.println(str.toUpperCase()); // upper case
+	
 		
 		System.out.println("validating text : " + str.contains("training")); 
 		
@@ -61,6 +62,17 @@ public class StringExampleOne {
 		String[] strArray = strOne.split(" ");
 		
 		System.out.println(strArray[3]);
+		
+		/* CompareTo */
+		System.out.println("********** compareTo() **********");
+		String a1 = "Playwright";
+		String b1 = "playwright";
+		String c1 = "Java";
+		
+		System.out.println(a1.compareToIgnoreCase(b1));
+		System.out.println(a1.compareTo(c1));
+		
+		System.out.println(c1.compareTo(a1));
 		
 	}
 
